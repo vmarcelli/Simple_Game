@@ -1,6 +1,10 @@
 #include "Weapon.h"
 #include <iostream>
 
+/*
+Variable and function descriptions can be found in the
+Weapon.h file
+*/
 using std::string;
 string wepName;
 bool intDMG;
@@ -32,4 +36,8 @@ string Weapon::getDescrip() {
 
 bool Weapon::getWepType() {
     return intDMG;
+}
+
+void Weapon::setDescrip(string descrip) {
+    wepDescrip = descrip;
 }

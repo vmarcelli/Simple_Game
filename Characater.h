@@ -6,16 +6,31 @@
 #include <iostream> 
 #include <string>
 #include "Stats.h"
+#include "Weapon.h"
+#include "Armor.h"
 
 using std::string; 
 
+/*
+Characters MUST have a name and stats when created.
+They may hold Armor or a Weapon, but their existence
+is not dependent upon that.
+*/
 class Character {
     private:
-        string charName;
-        Stats charStats;
-        string charDescrip;
+        /* Class fields */
+        string charName;    //Character name
+        Stats charStats;    //Character stats
+        Weapon charWeapon;  //Character Weapon
+        Armor charArmr;     //Character Armor
+        string charDescrip; //Character description
 
     public:
+
+        /* Class functions */
+        /*
+        Character constructor
+        */
         Character(string name, int atts[7]);
         string getNPCName();
         int getSTR();

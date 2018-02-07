@@ -21,6 +21,7 @@ class Weapon{
         string wepDescrip;  //Description for weapon
 
     public:
+        /* Functions */
         /*
         Constructor for the Weapon class.
         To create a weapon requires a name, type, min and max
@@ -28,11 +29,37 @@ class Weapon{
         creation.
         */
         Weapon(string name, bool type, int min, int max);
+
+        /*
+        Returns the weapon name
+        */
         string getName();
+
+        /*
+        Returns weapon's min damage
+        */
         int getMin();
+
+        /*
+        Returns weapon's max damage
+        */
         int getMax();
+
+        /*
+        Returns the weapon's description
+        */
         string getDescrip();
+
+        /*
+        Returns the weapon's damage type
+        */
         bool getWepType();
+        
+        /*
+        Sets the weapon's description,
+        Should be done after the weapon is created
+        */
+        void setDescrip(string descrip);
 
 };
 #endif
