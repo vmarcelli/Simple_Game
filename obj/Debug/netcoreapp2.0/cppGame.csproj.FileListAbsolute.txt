@@ -8,3 +8,8 @@ c:\Users\Valerio\Documents\Forfun\cppGame\obj\Debug\netcoreapp2.0\cppGame.Assemb
 c:\Users\Valerio\Documents\Forfun\cppGame\obj\Debug\netcoreapp2.0\cppGame.AssemblyInfo.cs
 c:\Users\Valerio\Documents\Forfun\cppGame\obj\Debug\netcoreapp2.0\cppGame.dll
 c:\Users\Valerio\Documents\Forfun\cppGame\obj\Debug\netcoreapp2.0\cppGame.pdb
+c:\Users\Valerio\Documents\Personal_Projects\cppGame\Simple_Game\obj\Debug\netcoreapp2.0\cppGame.csproj.CoreCompileInputs.cache
+c:\Users\Valerio\Documents\Personal_Projects\cppGame\Simple_Game\obj\Debug\netcoreapp2.0\cppGame.AssemblyInfoInputs.cache
+c:\Users\Valerio\Documents\Personal_Projects\cppGame\Simple_Game\obj\Debug\netcoreapp2.0\cppGame.AssemblyInfo.cs
+c:\Users\Valerio\Documents\Personal_Projects\cppGame\Simple_Game\obj\Debug\netcoreapp2.0\cppGame.dll
+c:\Users\Valerio\Documents\Personal_Projects\cppGame\Simple_Game\obj\Debug\netcoreapp2.0\cppGame.pdb
