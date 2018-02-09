@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Valerio\\Documents\\Personal_Projects\\cppGame\\Simple_Game\\cppGame.csproj",
+      "projectUniqueName": "c:\\Users\\Valerio\\Documents\\Forfun\\Repos\\CPP_TxtGame\\Simple_Game\\cppGame.csproj",
       "projectName": "cppGame",
-      "projectPath": "c:\\Users\\Valerio\\Documents\\Personal_Projects\\cppGame\\Simple_Game\\cppGame.csproj",
+      "projectPath": "c:\\Users\\Valerio\\Documents\\Forfun\\Repos\\CPP_TxtGame\\Simple_Game\\cppGame.csproj",
       "packagesPath": "C:\\Users\\Valerio\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Valerio\\Documents\\Personal_Projects\\cppGame\\Simple_Game\\obj\\",
+      "outputPath": "c:\\Users\\Valerio\\Documents\\Forfun\\Repos\\CPP_TxtGame\\Simple_Game\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
