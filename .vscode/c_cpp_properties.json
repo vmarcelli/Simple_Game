@@ -5,6 +5,11 @@
             "includePath": [
                 "/usr/include",
                 "/usr/local/include",
+                "C:/Program Files/mingw-w64/x86_64-7.1.0-win32-seh-rt_v5-rev2/mingw64/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++",
+                "C:/Program Files/mingw-w64/x86_64-7.1.0-win32-seh-rt_v5-rev2/mingw64/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32",
+                "C:/Program Files/mingw-w64/x86_64-7.1.0-win32-seh-rt_v5-rev2/mingw64/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward",
+                "C:/Program Files/mingw-w64/x86_64-7.1.0-win32-seh-rt_v5-rev2/mingw64/lib/gcc/x86_64-w64-mingw32/7.1.0/include",
+                "C:/Program Files/mingw-w64/x86_64-7.1.0-win32-seh-rt_v5-rev2/mingw64/",
                 "${workspaceRoot}"
             ],
             "defines": [],
