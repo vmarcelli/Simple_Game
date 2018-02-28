@@ -10,6 +10,7 @@ using std::string;
 class Weapon_Table {
     private:
         Weapon table[];
+        void createTable();
     public:
         Weapon_Table();
         Weapon getWeapon(int index);
