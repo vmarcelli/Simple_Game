@@ -18,6 +18,13 @@ Weapon::Weapon(string wName, bool type, int min, int max) {
     intDMG = type;
 }
 
+Weapon::Weapon() {
+    wepName = "";
+    minDMG = 0;
+    maxDMG = 0;
+    intDMG = 0;
+}
+
 string Weapon::getName() {
     return wepName;
 }

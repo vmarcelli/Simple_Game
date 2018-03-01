@@ -9,7 +9,8 @@ using std::string;
 
 class Weapon_Table {
     private:
-        Weapon table[];
+        Weapon table;
+        int TABLE_SIZE;
         void createTable();
     public:
         Weapon_Table();

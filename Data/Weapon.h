@@ -29,7 +29,16 @@ class Weapon{
         creation.
         */
         Weapon(string name, bool type, int min, int max);
+        
+        /*
+        Default constructor
+        */
+        Weapon();
 
+        /*
+        Alternative setter for Weapons created later on, or in array
+        */
+        void wepSetter(string name, bool type, int min, int max);
         /*
         Returns the weapon name
         */

@@ -1,16 +1,17 @@
 #include "Weapon_Table.h"
+#include "Weapon.h"
 #include <string>
 #include <iostream>
 
 using std::string;
 
-Weapon* table;
+const int TABLE_SIZE = 7;
+Weapon table[TABLE_SIZE];
 
 Weapon_Table::Weapon_Table() {
-    table = new int[]
     createTable();
 }
 
-Weapon_Table::createTable() {
-    table[]
+void Weapon_Table::createTable() {
+    table[0].setDescrip;
 }
