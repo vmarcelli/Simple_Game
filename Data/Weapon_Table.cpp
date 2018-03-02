@@ -13,5 +13,5 @@ Weapon_Table::Weapon_Table() {
 }
 
 void Weapon_Table::createTable() {
-    table[0].setDescrip;
+    table[0].se;
 }
