@@ -7,6 +7,7 @@ Weapon.h file
 */
 using std::string;
 string wepName;
+string wepDescrip;
 bool intDMG;
 int minDMG;
 int maxDMG; 
@@ -23,6 +24,13 @@ Weapon::Weapon() {
     minDMG = 0;
     maxDMG = 0;
     intDMG = 0;
+}
+
+void Weapon::wepSetter(string name, bool type, int min, int max) {
+    wepName = name;
+    minDMG = min;
+    maxDMG = max;
+    intDMG = type;
 }
 
 string Weapon::getName() {
