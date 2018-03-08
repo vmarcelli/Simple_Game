@@ -13,6 +13,7 @@ class Armor {
 
     public:
         Armor(int armR, string armName);
+        Armor();
         int getRating();
         string getName();
         string getDescrip();

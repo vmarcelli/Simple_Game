@@ -1,23 +1,22 @@
 /*
 Table that holds the different weapons in the game
 */
-#include "Weapon.h"
+#include "Armor.h"
 #include <iostream>
 #include <string>
 
 using std::string;
 
-class Weapon_Table {
+class Armor_Table {
     private:
         static const int TABLE_SIZE = 5;
-        Weapon table[TABLE_SIZE];
+        Armor table[TABLE_SIZE];
         void createTable();
     public:
-        Weapon_Table();
+        Armor_Table();
         /*
         Build table -> send weapon from index
         */
-        Weapon getWeapon(int index);
+        Armor getArmor(int index);
         
 }
-

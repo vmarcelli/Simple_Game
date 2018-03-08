@@ -12,6 +12,10 @@ Armor::Armor(int armR, string armName) {
     name = armName;
 }
 
+Armor::Armor() {
+    rating = 0;
+    name = "";
+}
 int Armor::getRating() {
     return rating;
 }
