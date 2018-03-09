@@ -14,6 +14,7 @@ class Armor {
     public:
         Armor(int armR, string armName);
         Armor();
+        void armSetter(int armR, string armName);
         int getRating();
         string getName();
         string getDescrip();

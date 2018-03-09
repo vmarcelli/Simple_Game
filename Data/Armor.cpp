@@ -16,6 +16,11 @@ Armor::Armor() {
     rating = 0;
     name = "";
 }
+
+void Armor::armSetter(int armR, string armName) {
+    rating = armR;
+    name = armName;
+}
 int Armor::getRating() {
     return rating;
 }

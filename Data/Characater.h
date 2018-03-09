@@ -32,6 +32,8 @@ class Character {
         Character constructor
         */
         Character(string name, int atts[7]);
+        void setWeapon(Weapon wep);
+        void setArmor(Armor arm);
         string getNPCName();
         int getSTR();
         int getPER();

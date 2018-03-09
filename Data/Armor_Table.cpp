@@ -16,7 +16,11 @@ Armor_Table::Armor_Table() {
 }
 
 void Armor_Table::createTable() {
-
+    table[0].armSetter(1, "Dirty Clothes");
+    table[1].armSetter(3, "Tin Armor");
+    table[2].armSetter(4, "Actual Armor");
+    table[3].armSetter(6, "Hero's Armor");
+    table[4].armSetter(8, "Magic Armor");
 }
 
 Armor Armor_Table::getArmor(int index) {
