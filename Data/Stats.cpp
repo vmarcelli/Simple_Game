@@ -19,12 +19,23 @@ Int = 4
 Agi = 5
 Lck = 6
 */
-static int stats[];
+static const int STAT_MAX = 7;
+int stats[STAT_MAX];
 
 Stats::Stats() {
-	stats[7] = {};
+	stats[STAT_MAX] = {};
 };
 
+void Stats::setAll(int s, int p, int e, 
+			int c, int i, int a, int l) {
+	stats[0] = s;
+	stats[1] = p;
+	stats[2] = e;
+	stats[3] = c;
+	stats[4] = i;
+	stats[5] = a;
+	stats[6] = l;
+}
 /*
 public setter for base stats, calls helper functions
 */

@@ -14,6 +14,8 @@ class Stats {
 	public:
 		//Constructor
 		Stats();
+		void setAll(int s, int p, int e, 
+			int c, int i, int a, int l);
 		//Changes stat to specific values, calls private helper function
 		void changeStat(int stat, int value);
 		

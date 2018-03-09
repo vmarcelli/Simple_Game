@@ -14,5 +14,7 @@ string charDescrip;
 
 Character::Character(string name, int atts[7]) {
     charName = name;
-    charStats = atts;
+    charStats.setAll(atts[0], atts[1], atts[2]
+                        atts[3], atts[4],
+                        atts[5], atts[6]);
 }
