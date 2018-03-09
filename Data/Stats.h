@@ -40,7 +40,8 @@ class Stats {
 		Agi = 5
 		Lck = 6
 		*/
-		static int stats[7];
+		static const int STAT_MAX = 7;
+		int stats[STAT_MAX];
 		
 		//setters for stats
 		void setSTR(int val);
