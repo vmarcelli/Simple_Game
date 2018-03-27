@@ -1,6 +1,8 @@
 /*
 Table that holds the different weapons in the game
 */
+#ifndef ARMOR_TABLE_H
+#define ARMOR_TABLE_H
 #include "Armor.h"
 #include <iostream>
 #include <string>
@@ -19,4 +21,5 @@ class Armor_Table {
         */
         Armor getArmor(int index);
         
-}
+};
+#endif

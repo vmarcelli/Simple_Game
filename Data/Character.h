@@ -31,7 +31,8 @@ class Character {
         /*
         Character constructor
         */
-        Character(string name, int atts[7]);
+		Character();
+        void setNameStats(string name, int* atts);
         void setWeapon(Weapon wep);
         void setArmor(Armor arm);
         string getNPCName();
@@ -42,6 +43,7 @@ class Character {
         int getINT();
         int getAGI();
         int getLCK();
+        void setDescrip(string descrip);
         string getDescrip();
 };
 #endif

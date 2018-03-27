@@ -24,5 +24,5 @@ void Armor_Table::createTable() {
 }
 
 Armor Armor_Table::getArmor(int index) {
-
+	return table[index];
 }

@@ -1,6 +1,8 @@
 /*
 Table that holds the different weapons in the game
 */
+#ifndef WEAPON_TABLE_H
+#define WEAPON_TABLE_H
 #include "Weapon.h"
 #include <iostream>
 #include <string>
@@ -19,5 +21,6 @@ class Weapon_Table {
         */
         Weapon getWeapon(int index);
         
-}
+};
+#endif
 
